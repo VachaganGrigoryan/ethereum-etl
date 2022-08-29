@@ -31,7 +31,7 @@ setup(
     keywords='ethereum',
     python_requires='>=3.7.2,<4',
     install_requires=[
-        'web3>=5.29,<6',
+        'web3==6.0.0-beta.4',
         'eth-utils==1.10',
         'eth-abi==2.1.1',
         # TODO: This has to be removed when "ModuleNotFoundError: No module named 'eth_utils.toolz'" is fixed at eth-abi
